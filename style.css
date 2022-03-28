@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ /* ----------------Código começa aqui------------------ */
+
+
+a { color: inherit; } 
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.top-header{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    justify-content: space-around;
+    color: #789048;
+}
+
+.bottom-header{
+    height: 50px;
+    font-size: 16px;
+    background-color: #789048;
+    color: white;
+    border: 1px solid;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.bottom-header ul li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 25px;
+    justify-content: space-around;
+}
+
+.top-header .logo{
+    margin-left: 340px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 580px;
+    margin-top: 30px;
+    margin-left: 130px;
+    border: 1px solid #789048;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user-main{
+    width: 260px;
+    margin-left: 390px;
+    margin-top: 30px;
+    background-color: #F0EEEE;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.user-logo{
+    margin: 10px;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.user{
+    margin-left: 10px;
+    display: inline-block;
+    padding-right: 25px;
+    justify-content: space-around;
+}
+
+.carrinho{
+    margin-left: 310px;
+    margin-top: 30px;
+    justify-content: space-around;
+    display: inline-block;
+}
+
+
+.container-main{
+    display: flex;
+    border: 5px solid black;
+    padding: 500px;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.container-footer{
+    background-color: #789048;
+    width: 100%;
+    height: 240px;
+    
+}
+
+.bottom-footer{
+    color: white;
+    display: inline-block;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.bottom-footer h1{
+    font-size: large;
+}
+
+.bottom-footer li{
+    font-size: small;
+}
+
+footer{
+    text-align: center;
+}
+
+.pgto{
+    margin-right: 200px ;
+    margin-top: 40px;
+}
+
+.pgto li ul{
+    display: inline-block;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    justify-content:space-between;
+    box-sizing: border-box;
+    margin: 0;
+    white-space: nowrap;
+    
+}
+
+.contato{
+    margin-right: 200px;
+}
+
