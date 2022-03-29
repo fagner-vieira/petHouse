@@ -1,204 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap">
-  <link rel="stylesheet" href="/css/home.css">
-  <meta name="author" content="Wendel Cutrim">
-  <style>
-    * {
-      margin: 0px;
-      padding: 0px;
-    }
-
-    header {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      height: 80px;
-      align-items: center;
-      font-family: "Roboto";
-    }
-
-    .menu a {
-      color: #3f3f6c;
-      margin: 50px;
-      text-decoration: none;
-      font-size: 20px;
-    }
-
-    .menu img a {
-      cursor: pointer;
-    }
-
-    .atendimento button {
-      background-color: #3751ff;
-      color: white;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 10px;
-      border-radius: 40px;
-      cursor: pointer;
-      margin-left: 20px;
-      text-decoration: none;
-      border: none;
-    }
-
-    .banner {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-family: "Roboto";
-      padding-top: 40px;
-      background: rgba(242, 249, 255);
-    }
-
-    .banner h1 {
-      color: #1E266D;
-      font-size: 56px;
-      font-weight: bold;
-      align-content: center;
-      text-align: center;
-
-    }
-
-    .banner div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .banner div p {
-      font-size: 18px;
-      text-align: center;
-      color: #1E266D;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-
-    .banner-div-button-1 {
-      background-color: #3751ff;
-      color: white;
-      font-size: 16px;
-      font-weight: lighter;
-      padding: 10px;
-      border-radius: 40px;
-      cursor: pointer;
-      margin-right: 20px;
-      border: none;
-    }
-
-    .banner-div-button-2 {
-      background-color: #cfcaca;
-      color: #3f3f6c;
-      font-size: 16px;
-      font-weight: lighter;
-      padding: 10px;
-      border-radius: 40px;
-      cursor: pointer;
-      margin-right: 20px;
-      border: none;
-    }
-
-    .banner img {
-      padding-top: 45px;
-      margin-right: 0px;
-      margin-left: 115px;
-      /* display: none; */
-    }
-
-    .chat {
-      position: fixed;
-      right: 0px;
-      bottom: 30px;
-      background-color: green;
-      color: white;
-      font-size: 16px;
-      font-weight: lighter;
-      padding: 10px;
-      border-radius: 40px;
-      cursor: pointer;
-      margin-right: 20px;
-      border: none;
-    }
-
-    /* @media (min-width: 800px) {
-    .banner img{
-        display: block;
-    }
-}
-
-@media (min-width: 992px) {
-    .banner img{
-        visibility: hide;
-    }    
-} */
-
-    #menu-mobile {
-      display: none;
-
-    }
-
-    @media (max-width: 465px) {
-      .menu {
-        display: none;
-      }
-
-      .atendimento {
-        display: none;
-      }
-
-      #menu-mobile {
-        display: block;
-      }
-
-      .banner img {
-        display: none;
-      }
-    }
-  </style>
-  <title>Agência Dev House</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetHouse</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
-
 <body>
-  <header>
-    <a href="/"><img src="https://i.postimg.cc/188SsVjP/logo.png" title="Logo Dev House" alt="logo devHouse"></a>
-    <img id="menu-mobile" src="https://i.postimg.cc/LJGpX4cP/menu-icon.png" title="Menu Incon" alt="menu-icon">
-    <nav class="menu">
-      <a href="/">Home</a>
-      <a href="/login">login</a>
-      <a href="/cadastro">Cadastro</a>
-    </nav>
-    <div class="atendimento">
-      <a href="telto:+00&nbsp;123&nbsp;456&nbsp;789">(00) 12345-6789</a>
-      <button>Atendimento</button>
+
+    <header>
+
+        <div class="container">
+            <div class="top-header">
+                <div class="logo">
+                <img src="./img/logo-pethouse.png" alt="logo-pethouse">
+            </div>
+        </div>  
+       
+        <div class="top-header">
+            <nav>
+        
+                <img src="./img/lupa-vetor.png" alt="lupa">
+       
+            </nav>
+        </div>
+        
+        <div class="top-header">
+            <div class="user-main">
+                <div class="user-logo">
+                    <a href="/meuPerfil"><img src="./img/user-vetor.png" alt="user"></a>
+                </div>
+                <div class="user">
+                    <h1><strong>Olá, Entre</strong><br> ou cadastre-se</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-header">
+                <a class="carrinho" href="/meuCarrinho"><img src="./img/carrinho-vetor.png" alt="carrinho"></a>
+        </div>
     </div>
-  </header>
-  <main>
-    <section class="banner">
-      <article>
-        <h1>Agencia Dev House</h1>
-        <div>
-          <p>For everyone, from beginners to experts</p>
+        <div class="bottom-header">
+                <ul class="lista-de-animais">
+                    <a href=""><li>Cachorro</li></a> 
+                    <a href=""><li>Gato</li></a>
+                    <a href=""><li>Coelho</li></a>
+                    <a href=""><li>Hamster</li></a>
+                    <a href=""><li>Chinchila</li></a>
+                    <a href=""><li>Porquinho-da-índia</li></a>
+                    <a href=""><li>Cavalo</li></a>
+                    <a href=""><li>Outros Animais</li></a>
+                </ul>
         </div>
-        <div>
-          <button class="banner-div-button-1">Buy Digits</button>
-          <button class="banner-div-button-2">See the Features</button>
-        </div>
-        <img src="https://i.postimg.cc/McR8j2wF/banner.png" title="Banner 1" alt="Banner 1">
-        <a href="#"><button class="chat">Chat com a Área de Vendas</button></a>
-      </article>
-    </section>
-    <!-- <img class="chat"src="/img/home-page/chat-button.png" alt="chat-button"> -->
+    </header>
 
-  </main>
+    <main>
+
+        <div class="container-main">
+
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            <p>Produto</p>
+            
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container-footer-background">
+            <div class="container">
+            <div class="pgto">
+                <div class="titulo">
+                    <h1>Formas de Pagamento</h1>
+                    <br>
+                    <div class="listas">
+                        <ul>
+                            <li>Mastercard</li>
+                            <li>VISA</li>
+                            <li>ELO</li>
+                            <li>American Express</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contatos">
+                <div class="titulo">
+                    <h1>Contatos</h1>
+                    <br>
+                    <div class="listas">
+                        <ul>
+                            <li>Tel. (00) 0000-0000</li>
+                            <li>Wpp. (00) 0 0000-0000</li>
+                            <li>E-mail: contato@pethouse.com</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="navegacao">                    
+                <div class="titulo">
+                    <h1>Navegação</h1>
+                    <br>
+                    <div class="lista">
+                        <ul class="lista-de-animais">
+                            <a href=""><li>Cachorro</li></a> 
+                            <a href=""><li>Gato</li></a>
+                            <a href=""><li>Coelho</li></a>
+                            <a href=""><li>Hamster</li></a>
+                            <a href=""><li>Chinchila</li></a>
+                            <a href=""><li>Porquinho-da-índia</li></a>
+                            <a href=""><li>Cavalo</li></a>
+                            <a href=""><li>Outros Animais</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-nos">   
+                <div class="titulo">
+                    <h1>Sobre nós</h1>
+                    <br>
+                    <div class="lista">
+                        <ul>
+                            <li>Institucional</li>
+                            <li>Trabalhe Conosco</li>
+                        </ul>
+                    </div>
+                </div>                 
+                
+            </div>
+
+        </div>
+        </div>
+        <div class="copyright">                    
+            <h1>Copyright ©</h1>
+        </div> 
+    </footer>
+
 </body>
-
 </html>
