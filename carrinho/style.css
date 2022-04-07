@@ -38,7 +38,9 @@ margin-bottom: 20px;
 }
 .texto1
 {
-    text-align:right
+    text-align:right;
+    padding-top: 60px;
+    
 }
 
 .produtoEscolhido2 {
@@ -53,7 +55,8 @@ margin-bottom: 20px;
 }
 .texto2
 {
-    text-align:right
+    text-align:right;
+    padding-top: 60px;
 }
 
 .produtoEscolhido3 {
@@ -68,7 +71,8 @@ margin-bottom: 100px;
 }
 .texto3
 {
-    text-align:right
+    text-align:right;
+    padding-top: 60px;
 }
 .freteEValorTotal{
 position: absolute;
