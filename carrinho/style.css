@@ -28,45 +28,65 @@ a { color: inherit; }
 .produtoEscolhido1 {
   
 width: 763px;
-height: 324px;
+height: 300px;
 left: 108px;
 top: 301px;
 
 background: #F0F0D8;
 border-radius: 17px;
 margin-bottom: 20px;
+}
+.texto1
+{
+    text-align:right
 }
 
 .produtoEscolhido2 {
 width: 763px;
-height: 324px;
+height: 300px;
 left: 108px;
 top: 301px;
 
 background: #F0F0D8;
 border-radius: 17px;
 margin-bottom: 20px;
+}
+.texto2
+{
+    text-align:right
 }
 
 .produtoEscolhido3 {
 width: 763px;
-height: 324px;
+height: 300px;
 left: 108px;
 top: 301px;
 
 background: #F0F0D8;
 border-radius: 17px;
-margin-bottom: 20px;
+margin-bottom: 100px;
 }
-
+.texto3
+{
+    text-align:right
+}
 .freteEValorTotal{
 position: absolute;
 width: 300px;
 height: 200px;
 left: 897px;
-top: 30px;
+top: 150px;
 background: #4b7062;
 border-radius: 17px;
 margin-bottom: 20px;
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
 }
 
